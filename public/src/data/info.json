@@ -1,0 +1,316 @@
+{
+    "hddb": {
+        "banner":[ {
+                "title": "카카오 채널 추가하고 | 원 할인쿠폰 받자!!",
+                "em": 3000,
+                "sub": "",
+                "link": "",
+                "target": "_blank"
+        }],
+        "navi": [
+            {
+                "title": "솔직리뷰",
+                "link": "#review"
+            },
+            {
+                "title": "이벤트 소식",
+                "link": "#event"
+            },
+            {
+                "title": "온가담 스토리",
+                "link": "#about"
+            }
+        ]
+    },
+    "contentsdb": {
+        "slide": [
+            {
+                "src": "/img/slide0.png",
+                "link": "",
+                "cls": "slide0",
+                "category": "온가담 베스트셀러",
+                "title": "<em>가방에 쏙!<em> 여행 필수템",
+                "titlecls": "title0",
+                "subtitle": "소형스타일러 하나로 쾌적한 여행 완성!!",
+                "hash": "#"
+            },
+            {
+                "src": "/img/slide1.png",
+                "link": "",
+                "cls": "slide1",
+                "category": "다이어트는 덤으로!",
+                "title": "우리집 <em>건강도우미<em>",
+                "titlecls": "title1",
+                "subtitle": "온가담 저당밥솥으로 책임질게요"
+            },
+            {
+                "src": "/img/slide2.png",
+                "link": "",
+                "cls": "slide2",
+                "category": "여름 아직 안끝났어!",
+                "title": "<em>냉각패드<em>가 달린 손풍기,",
+                "titlecls": "title2",
+                "subtitle": "이번 여름 땀걱정 NO!"
+            },
+            {
+                "src": "/img/slide0.png",
+                "link": "",
+                "cls": "slide0",
+                "category": "온가담 베스트셀러",
+                "title": "<em>가방에 쏙!<em> 여행 필수템",
+                "titlecls": "title0",
+                "subtitle": "소형스타일러 하나로 쾌적한 여행 완성!!"
+            },
+            {
+                "src": "/img/slide1.png",
+                "link": "",
+                "cls": "slide1",
+                "category": "다이어트는 덤으로!",
+                "title": "우리집 <em>건강도우미<em>",
+                "titlecls": "title1",
+                "subtitle": "온가담 저당밥솥으로 책임질게요"
+            },
+            {
+                "src": "/img/slide2.png",
+                "link": "",
+                "cls": "slide2",
+                "category": "여름 아직 안끝났어!",
+                "title": "<em>냉각패드<em>가 달린 손풍기,",
+                "titlecls": "title2",
+                "subtitle": "이번 여름 땀걱정 NO!"
+            }
+        ],
+        "review": {
+            "reviewbox": [
+                {
+                    "name": "자사몰구매자 김*솔 님",
+                    "src": "/img/review0.jpg",
+                    "re": "이게 뭐라고 삶의질 대폭 상승이네요!!<br>큰 스타일러를 사기엔 가격과 크기가 부담이 되었던 자취생인데 온가담 스타일러를 만나고 삶의 질이 올라갔어요!!이 가격에 많은 기능을 쓸 수 있어서 너무 좋아요 ^^"
+                },
+                {
+                    "name": "자사몰구매자 강*성 님",
+                    "src": "/img/review1.jpg",
+                    "re": "자취생의 필수품이에요!!<br>유지비용이 대형 건조기의 1/14라고 해서 구매해봤는데 역시 좋네요!! 옷 손상도 없어서 짱이에욧"
+                },
+                {
+                    "name": "자사몰구매자 이*주 님",
+                    "src": "/img/review2.jpg",
+                    "re": "텀블러 사이즈 크기에 제습과 탈취기능까지$0$<br>옷 손상도 없어서 너무너무 좋아요~ 여행갈때도 짱!!"
+                },
+                {
+                    "name": "자사몰구매자 김*연 님",
+                    "src": "/img/review3.jpg",
+                    "re": "신발건조와 UV살균램프 기능도 있네요~!<br>요렇게 작고 싼게 좋으면 얼마나 좋을까 하고 속은셈 치고 사봤는데 요즘 매일 써요.. 이번년도에 제일 잘 산 물건이에용"
+                },
+                {
+                    "name": "자사몰구매자 한*영 님",
+                    "src": "/img/review4.jpg",
+                    "re": "완전 조용해요~~<br>아이가 있어서 소음이 큰 가전은 못쓰고 있는데 53데시벨이라고 해서 사봤어요. 결과는 완전 최고~!!"
+                }
+            ],
+            "checkbox": [
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "미니사이즈"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "저렴한 유지비용"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "옷 손상 최소화"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "신발 건조"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "UV살균 램프"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "제습, 탈취"
+                },
+                {
+                    "src": "/img/checkbox.png",
+                    "title": "저소음"
+                }
+            ]
+        },
+        "event": {
+            "list": [
+                {
+                    "title": "남양주 인기카페 <em>라온숨 X 온가담<em> 콜라보!!",
+                    "subtitle": "남양주 인기카페에서 무료체험&무료커피 맛보러 GoGo~",
+                    "link": "",
+                    "imgcls": "event0 eventimg",
+                    "textcls": "",
+                    "smtext": "남양주 인기카페 <em>라온숨 X 온가담<em> 콜라보!!",
+                    "smtextsub": "남양주 인기카페에서 무료체험&무료커피 맛보러 GoGo~"
+                },
+                {
+                    "title": "캠핑족을 위한 최대 <em>~48%<em> 최강공구 오픈!!",
+                    "subtitle": "07.01~07.04 단 3일!!",
+                    "link": "",
+                    "imgcls": "event1 eventimg",
+                    "textcls": "",
+                    "smtext": "캠핑족을 위한 최대 <em>~48%<em> 최강공구 오픈!!",
+                    "smtextsub": "07.01~07.04 단 3일!!"
+                },
+                {
+                    "title": "인기상품 <em>무료로 데려갈 사람 손~!!<em>",
+                    "subtitle": "지루한 신청 절차? No! 3분만에 신청하러 가기!!",
+                    "link": "",
+                    "imgcls": "event2 eventimg",
+                    "textcls": "",
+                    "smtext": "인기상품 <em>무료로 데려갈 사람 손~!!<em>",
+                    "smtextsub": "지루한 신청 절차? No! 3분만에 신청하러 가기!!"
+                }
+            ]
+        },
+        "about": {
+            "aboutlist": [
+                {
+                    "src": "/img/aboutus0.jpg",
+                    "cardTopic": "Strong Point",
+                    "cardName": "편리함 UP",
+                    "cardContent0": "고객님의 <br>생활을 더욱 <span>#편하게<span> <br>만들어줄 아이디어 <br>상품입니다.",
+                    "cardContent1": "",
+                    "cardContent1cls": ""
+                },
+                {
+                    "src": "/img/aboutus1.jpg",
+                    "cardTopic": "Strong Point",
+                    "cardName": "가격부담 DOWN",
+                    "cardContent0": "온가담만의 <br>유통시스템을 통해 <br><span>#합리적인 가격<span>을 <br>약속합니다.",
+                    "cardContent1": "",
+                    "cardContent1cls": ""
+                },
+                {
+                    "src": "/img/aboutus2.jpg",
+                    "cardTopic": "Best Item",
+                    "cardName": "소형스타일러",
+                    "cardContent0": "<span>여행, 출장도 걱정없이<span><br><span>가격과 공간의 부담 없이<span>",
+                    "cardContent1": "온가담이 <br>고민을 덜어드립니다.",
+                    "cardContent1cls": "pt-3"
+                }
+            ],
+            "aboutInsta": [
+                {
+                    "src": "/img/instaC1.png",
+                    "popup": {
+                        "title": "작은 가방에도 쏙! 들어가는 여름 외출 필수템!!이번 여름은 땀걱정 하지말자구요~!",
+                        "hash": "#여름필수템 #손풍기 #쿨링패드 #땀걱정노노",
+                        "src": "/img/instaC1.png",
+                        "product": "쿨링패드손풍기",
+                        "price": "12,000원",
+                        "productimg": "/img/productC.jpg"
+
+                    }
+                },
+                {
+                    "src": "/img/instaA1.png",
+                    "popup": {
+                        "title": "바지도 온가담 소형스타일러로 쾌적하게 관리해요!!",
+                        "hash": "#자취필수템 #건조기 #저소음 #살균도OK",
+                        "src": "/img/instaA1.png",
+                        "product": "소형스타일러",
+                        "price": "12,000원",
+                        "productimg": "/img/productA.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaA2.png",
+                    "popup": {
+                        "title": "신발 자주 빨기 힘드시죠? 온가담 소형스타일러로 손쉽고 쾌적하게 관리해요!",
+                        "hash": "#자취필수템 #건조기 #저소음 #살균도OK",
+                        "src": "/img/instaA2.png",
+                        "product": "소형스타일러",
+                        "price": "12,000원",
+                        "productimg": "/img/productA.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaA3.png",
+                    "popup": {
+                        "title": "급하게 옷 세탁이 필요할 때! 소형스타일러와 함께라면 걱정마세요!",
+                        "hash": "#자취필수템 #건조기 #저소음 #살균도OK",
+                        "src": "/img/instaA3.png",
+                        "product": "소형스타일러",
+                        "price": "12,000원",
+                        "productimg": "/img/productA.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaB0.png",
+                    "popup": {
+                        "title": "저당밥솥으로 만든 밥은 별로라구요? NONO! 더욱 쫀득해진 밥맛을 느껴보세요!",
+                        "hash": "#미니밥솥 #칼로리감소 #간편타이머 #조리모드",
+                        "src": "/img/instaB0.png",
+                        "product": "1~2인용 저당밥솥",
+                        "price": "12,000원",
+                        "productimg": "/img/productB.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaB1.png",
+                    "popup": {
+                        "title": "요즘 누가 굶어서 살뺀대요? 저당밥솥과 함께라면 먹으면서 다이어트 OK!",
+                        "hash": "#미니밥솥 #칼로리감소 #간편타이머 #조리모드",
+                        "src": "/img/instaB1.png",
+                        "product": "1~2인용 저당밥솥",
+                        "price": "12,000원",
+                        "productimg": "/img/productB.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaC0.png",
+                    "popup": {
+                        "title": "점점 더 더워지는 여름 너무 힘들죠? 일반 선풍기랑은 차원이 다른 쿨링패드손풍기! 이젠 필수템이에요",
+                        "hash": "#여름필수템 #손풍기 #쿨링패드 #땀걱정노노",
+                        "src": "/img/instaC0.png",
+                        "product": "쿨링패드손풍기",
+                        "price": "12,000원",
+                        "productimg": "/img/productC.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaA0.png",
+                    "popup": {
+                        "title": "운동하고 땀냄새 걱정도 NO! 손상없게 옷 관리하자구요!",
+                        "hash": "#자취필수템 #건조기 #저소음 #살균도OK",
+                        "src": "/img/instaA0.png",
+                        "product": "소형스타일러",
+                        "price": "12,000원",
+                        "productimg": "/img/productA.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaC2.png",
+                    "popup": {
+                        "title": "저는 여름에 어딜가나 요 쿨링패드손풍기 들고댕겨요! 너무 가볍고 좋잖아~",
+                        "hash": "#여름필수템 #손풍기 #쿨링패드 #땀걱정노노",
+                        "src": "/img/instaC2.png",
+                        "product": "쿨링패드손풍기",
+                        "price": "12,000원",
+                        "productimg": "/img/productC.jpg"
+                    }
+                },
+                {
+                    "src": "/img/instaC3.png",
+                    "popup": {
+                        "title": "아니 이거 무슨 에어컨이에요? 너무 시원해!!",
+                        "hash": "#여름필수템 #손풍기 #쿨링패드 #땀걱정노노",
+                        "src": "/img/instaC3.png",
+                        "product": "쿨링패드손풍기",
+                        "price": "12,000원",
+                        "productimg": "/img/productC.jpg"
+                    }
+                }
+                
+            ]
+        }
+    }
+}

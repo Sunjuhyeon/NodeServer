@@ -1,0 +1,52 @@
+.swiperslide a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.swiperslide a{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.swiperslide a .textbox{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.swiperslide a .textbox .title{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.swiperslide a .textbox .subtitle {
+    font-size: 1.6rem;
+}
+.swiperslide a .textbox .category{
+    font-size: 1.3rem;
+    line-height: 5rem;
+}
+
+@media(max-width:991px) {
+    .swiperslide a .textbox .title{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+@media(max-width:400px) {
+    .swiperslide a .textbox .category{
+        font-size: 1.1rem;
+        line-height: 4rem;
+    }
+    .swiperslide a .textbox .title{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .swiperslide a .textbox .subtitle{
+        font-size: 1.2rem !important;
+    }
+}

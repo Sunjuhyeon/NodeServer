@@ -1,0 +1,307 @@
+:root {
+    --body-bg: #FAFAFA;
+    --main-green: #337005;
+    --font-yellow: #FFE500;
+    --font-gray: #9C9494;
+    --event-nav-bg: #FFDEB9;
+    --event-nav-font: #FC2947;
+    --sub-gray: #D9D9D9;
+}
+
+/* 온가담, 삶의 따듯함과 편안함을 더해줍니다.(about섹션 최상위)  */
+.section{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.sentence1 span{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--main-green);
+}
+.sentence1 p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+hr {
+    width: 80vw;
+    border: 0;
+    height: 2px;
+    background-color: var(--sub-gray);
+}
+
+/* about섹션 회사 소개 카드 */
+.aboutUsCard{
+    padding: 0 0.2rem;
+}
+.aboutUsCard li{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.AUcard{
+    width: 100%;
+}
+.AUcard img{
+    width: 100%;
+}
+.aboutSentence{
+    width: 100%;
+    height: 200px;
+    padding-top: 1.5rem;
+}
+.Mbr{
+    display: none;
+}
+.cardTopic{
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    color: #333;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.cardName{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.cardcontent0cls{
+    line-height: 1.3rem;
+}
+.cardContent{
+    display: block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #6f6f6f;
+
+}
+.cardContent span{
+    color: var(--main-green);
+    font-weight: 700;
+}
+.cardcontent1cls{
+    padding-top: 0.5rem;
+    line-height: 1.1rem;
+}
+.cardcontent1cls p{
+    font-weight: 400;
+    color: #6f6f6f;
+}
+.aboutSentence .cardContent{
+    margin-bottom: 0;
+}
+.aboutSentence .cardcontent1cls>p{
+    margin-bottom: 0;
+}
+
+/* 온가담 유통시스템 (about섹션 최하위) */
+.sentence2{
+    /* background-image: url(../../public/img/truckImg.png); */
+    width: 100%;
+    height: 419px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sentence2 p{
+    margin-bottom: 0;
+    color: white;
+}
+/* .sentence2 .title{
+    padding-right: 3rem;
+} */
+.sentence2 .title p{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.sentence2 .content{
+    padding-left: 3rem;
+    border-left: 1px solid white;
+}
+.sentence2 .content p{
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+.sentence2 .content .direct{
+    background-color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.sentence2 .content .direct span{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.sentence2 .content .direct img{
+    width: auto;
+    height: 15px;
+    padding-left: 0.5rem;
+}
+
+@media(min-width:576px){
+    .moblieBr{
+        display: none;
+    }
+}
+
+@media(max-width:400px){
+    .sentence2 .title{
+        padding-bottom: 1rem !important;
+    }
+    .sentence2 .content p{
+        font-size: 1.1rem;
+        padding-top: 1rem !important;
+    }
+}
+@media(max-width:768px){
+    .sentence2{
+        flex-direction: column;
+    }
+    .sentence2 .title{
+        padding-bottom: 2rem;
+    }
+    .sentence2 .title p{
+        display: flex;
+        justify-content: center;
+    }
+    .sentence2 .title p em{
+        padding-left: 0.5rem;
+    }
+    .sentence2 .content{
+        padding-left: 0;
+        border-left: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sentence2 .content p{
+        display: inline-block;
+        border-top: 1px solid white;
+        padding-top: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+/* .sentence2 img{
+    width: 7rem;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(1rem);
+}
+
+.sentence2Title{
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 400;
+    margin: 0;
+}
+.sentence2Title span{
+    font-weight: 700;
+}
+
+.sentence2Content{
+    border: 1px solid var(--sub-gray);
+    text-align: center;
+    width: 70vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 3rem 0;
+}
+.sentence2Content p{
+    font-size: clamp(1rem, 4vw, 1.7rem);
+    font-weight: 500;
+    color: #5a5a5a;
+    margin: 0;
+}
+.sentence2Content span{
+    font-weight: 700;
+    color: #333 !important;
+} */
+
+@media(max-width:400px){
+    .aboutSentence{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .sentence1 span {
+        font-size: 1.7rem !important;
+    }
+    .sentence1 p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width:576px){
+    .aboutSentence {
+        margin-left: 0.2rem !important;
+        height: 150px !important;
+    }
+    .aboutSentence .cardTopic{
+        margin-bottom: 0.2rem !important;
+    }
+    .aboutSentence .cardName{
+        margin-bottom: 0.1rem;
+        font-size: 1.3rem;
+    }
+    .aboutUsCard li{
+        margin: 0.5rem 0;
+    }
+    .AUcard{
+        width: 100%;
+    }
+    .cardcontent0cls {
+        line-height: 1.1rem;
+    }
+    .cardContent {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:768px) {
+    .sentence1 {
+        line-height: 2rem;
+    }
+    .sentence1 span {
+        display: flex;
+        justify-content: center;
+        transform: translateX(-30%);
+        font-size: 2rem;
+    }
+
+    .sentence1 p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .aboutUsCard{
+        justify-content: center;
+    }
+    .AUcard img{
+            max-width: 40vw;
+    }
+
+    .aboutSentence{
+        width: 200px;
+        height: 100%;
+        padding-top: 0;
+    }
+    .cardContent br{
+        display: block;
+    }
+}

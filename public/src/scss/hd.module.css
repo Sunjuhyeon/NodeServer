@@ -1,0 +1,76 @@
+:root {
+    --body-bg: #FAFAFA;
+    --main-green: #337005;
+    --font-yellow: #FFE500;
+    --font-gray: #9C9494;
+    --event-nav-bg: #FFDEB9;
+    --event-nav-font: #FC2947;
+    --sub-gray: #D9D9D9;
+}
+/* 띠배너 */
+@media(max-width:991px){
+    .eventBanner{
+        display: none;
+    }
+}
+
+.topBanner{
+    height: 50px;
+    background-color: #142e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topBanner p{
+    margin-bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.scrollBanner{
+    display: none;
+}
+.scrollBannerAct{
+    transition: 1s;
+    display: block;
+}
+/* 상단 */
+#headSection{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0), rgb(24, 24, 24, 0.7));
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.mainhead{
+    max-width: 70vw;
+}
+@media(max-width:991px){
+    .mainhead{
+        max-width: 90vw;
+    }
+}
+.sub{
+    width: 30px;
+}
+@media(min-width:991px){
+    .sub{
+        display: none;
+    }
+}
+.mainhead h1{
+    margin-bottom: 0;
+}
+.logoImg{
+    width: 10rem;
+    height: auto;
+}
+.menu li{
+    margin-left: 3rem;
+}
+.menu li a{
+    font-weight: 500;
+    color: rgb(243, 243, 243);
+    font-size: 1.2rem;
+}
+/* 햄버거 메뉴 */

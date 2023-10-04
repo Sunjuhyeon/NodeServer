@@ -1,0 +1,24 @@
+.box{
+    background-color: #337005;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f2f052;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.img{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}

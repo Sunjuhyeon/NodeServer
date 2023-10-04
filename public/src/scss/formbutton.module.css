@@ -1,0 +1,13 @@
+.formbutton{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0;
+    transition: 1s;
+}
+@media(max-width:576px){
+    .formbutton{
+        width: 60px;
+        height: 60px;
+    }
+}

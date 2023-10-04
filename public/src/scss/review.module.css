@@ -1,0 +1,167 @@
+.merit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 15rem;
+}
+
+.merit .mTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.merit .mTitle p {
+    font-size: 2rem;
+    font-family: 'NotoSerifKR', serif;
+    color: #142e00;
+}
+
+.merit .mTitle i {
+    font-size: 1.8rem;
+    margin: 0 0.25rem;
+    color: #e5c269;
+}
+
+.merit .meritlist{
+    padding-top: 2rem;
+}
+.merit .meritlist>div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.merit .meritlist img {
+    height: 20px;
+    width: auto;
+}
+
+.merit .meritlist span {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: rgb(57, 57, 57);
+}
+
+.review{
+    padding-right: 15rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f5f5f5;
+}
+.review .rTitle {
+    padding-bottom: 1rem;
+}
+
+.review .rTitle p {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-family: 'PuradakGentleGothicR', serif;
+    font-weight: normal;
+    line-height: 1;
+    color: rgb(97, 97, 97);
+}
+
+.review .rTitle span {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #142e00;
+    /* font-family: 'PuradakGentleGothicR', serif; */
+}
+
+.reviewbox .hd {
+    display: flex;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 0.25rem 0;
+}
+
+.reviewbox .hd span {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.reviewbox .hd i {
+    margin: 0 0.15rem;
+}
+
+.reviewbox .body {
+    padding-top: 1rem;
+    justify-content: start;
+}
+
+.reviewbox .body img {
+    height: 100px;
+}
+
+.reviewbox .body .txt p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    word-break: keep-all;
+}
+
+.reviewbox .body .txt {
+    /* margin-left: 1rem; */
+    height: fit-content;
+}
+
+.review .swiper{
+    height: 50vh;
+    padding-right: 1.5rem;
+}
+.swiperslide {
+    height: auto;
+}
+.swiperslide:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.swiperslide:not(:first-child) {
+    margin-top: 0.5rem;
+}
+
+@media(max-width:576px) {
+    .reviewbox .body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviewbox .body img {
+        height: 200px;
+    }
+    .reviewbox .body .txt{
+        line-height: 1.2rem;
+        padding-top: 0.5rem;
+    }
+    .merit .meritlist img{
+        height: 20px;
+    }
+    .merit .meritlist span{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:992px){
+    .merit{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .review{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media(max-width:1400px) {
+    .merit {
+        padding-left: 0;
+    }
+    .review {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

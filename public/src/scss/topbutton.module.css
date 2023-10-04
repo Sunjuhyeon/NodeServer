@@ -1,0 +1,20 @@
+.opacity0 {
+    opacity: 0;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.cursor {
+    cursor: default;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.topButtonsvg {
+    width: 56px;
+    height: 56px;
+}

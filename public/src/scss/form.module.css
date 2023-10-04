@@ -1,0 +1,200 @@
+.sectionbg {
+    background-color: #337005;
+    padding: 5rem 0;
+}
+
+/* subtop스타일 */
+.subtop {
+    position: absolute;
+    width: 80%;
+    max-width: 896px;
+    min-width: 320px;
+    height: 150px;
+    background-color: #f5df2b;
+    top: -155px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.subtop p {
+    font-family: 'SBAggro';
+    font-weight: 700;
+    color: #439505;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    word-break: keep-all;
+    margin-bottom: 0;
+}
+
+.subtop em {
+    font-family: 'SBAggro';
+    font-weight: 700;
+    color: #337005;
+}
+
+.subtopbtn {
+    background-color: #439505;
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.subtopbtn:hover{
+    background-color: #424242;
+}
+.subtopbtn span{
+    font-size: 1.5rem;
+    color: #f5df2b;
+}
+
+/* 타이틀스타일 */
+.title {
+    margin-bottom: 2rem;
+}
+
+.title p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.title .subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #92CE65;
+}
+
+.title .maintitle {
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: #d0ff16;
+}
+
+
+
+/* 폼스타일 */
+.formBox {
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.formBox input {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #337005;
+}
+
+.formBox input::placeholder {
+    opacity: 1;
+}
+
+.formBox input[type=text],
+[type=tel],
+[type=date] {
+    height: 5rem;
+    padding-left: 1rem;
+    color: rgb(138, 138, 138);
+    opacity: 1;
+}
+
+.formBox input[type=text],
+[type=tel],
+[type=submit] {
+    letter-spacing: 0.3rem;
+}
+
+.formBox input[type=submit] {
+    height: 10rem;
+    width: 6rem;
+    background-color: #ECE8D9;
+    color: #4A4737;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mainform {
+    width: 800px;
+}
+
+
+/* 하단 공지 */
+.notice {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.notice p {
+    margin-bottom: 0;
+    color: #d0ff16;
+}
+
+@media(min-width:576px) {
+    .title .maintitle br {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .formBox input {
+        border-radius: 5px;
+    }
+
+    .formBox input[type=text],
+    [type=tel],
+    [type=date] {
+        height: 3rem;
+        font-size: 1.2rem !important;
+    }
+
+    .formBox input[type=submit] {
+        height: 3rem;
+        width: 300px;
+    }
+
+    .title .subtitle {
+        font-size: 15.5px !important;
+    }
+
+    .title .maintitle {
+        font-size: 22px !important;
+    }
+}
+@media(max-width:768px){
+    .subtop p{
+        font-size: 1.5rem;
+        width: 205px;
+    }
+    .subtopbtn{
+        margin-left: 0.5rem;
+        width: 50px;
+        height: 50px;
+    }
+    .subtopbtn span{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:991px) {
+    .mainform {
+        width: 50vw;
+        min-width: 300px;
+    }
+
+    .title .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .title .maintitle {
+        font-size: 1.7rem;
+    }
+}

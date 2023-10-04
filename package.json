@@ -1,0 +1,25 @@
+{
+  "name": "0912",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javascriptnode@sunjuhyeon.cafe24app.com:javascriptnode_sunjuhyeon"
+  },
+  "author": "sunjuhyeon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.1",
+    "express": "^4.18.2",
+    "mybatis-mapper": "^0.7.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
